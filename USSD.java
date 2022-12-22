@@ -52,7 +52,7 @@ public class USSD implements IUSSD {
     public void menu() {
         System.out.println("Menu");
         System.out.println("1. Check Balance");
-        System.out.println("2. Transfer");
+        System.out.println("2. Send Money");
         System.out.println("3. Deposit");
         System.out.println("4. Withdraw");
         System.out.println("5. Exit");
