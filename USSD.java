@@ -79,7 +79,7 @@ public class USSD implements IUSSD {
                             transaction.sendMoney(loggedAccount);
                             break;
                         case 3:
-                            transaction.deposit();
+                            transaction.deposit(loggedAccount);
                             break;
                         case 4:
                             transaction.Withdraw();

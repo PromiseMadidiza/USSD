@@ -18,8 +18,8 @@ public class Transaction implements ITransactions {
         System.out.println("How much: ");
         Double amount = input.nextDouble();
 
-        for(Account acc : accounts) {
-            if(acc.getAccountNumber().equals(account)){
+        for (Account acc : accounts) {
+            if (acc.getAccountNumber().equals(account)) {
                 logged.setBalance(logged.getBalance() - amount);
                 acc.setBalance(acc.getBalance() + amount);
                 break;
@@ -33,13 +33,15 @@ public class Transaction implements ITransactions {
     }
 
     @Override
-    public void deposit() {
-
+    public void deposit(Account logged) {
+        System.out.println("Your balance is " + logged.getBalance());
+        System.out.println("How much are you depositing: ");
+        Double amount = input.nextDouble();
     }
 
     @Override
     public void Withdraw() {
-        
 
     }
+
 }
