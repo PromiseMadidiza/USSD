@@ -36,12 +36,12 @@ public class Transaction implements ITransactions {
     public void deposit(Account logged) {
         System.out.println("Your balance is " + logged.getBalance());
         System.out.println("How much are you depositing: ");
-        Double amount = input.nextDouble();
-    }
+
+            }
 
     @Override
-    public void Withdraw() {
-
+    public void Withdraw(Account logged) {
+    
     }
 
 }

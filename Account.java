@@ -2,8 +2,8 @@ public class Account extends User {
     private String accountNumber;
     private double balance;
 
-    Account(String un, String up, 
-    String acc, Double bal) {
+    Account(String un, String up,
+            String acc, Double bal) {
         super(un, up);
         this.accountNumber = acc;
         this.balance = bal;

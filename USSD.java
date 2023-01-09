@@ -82,7 +82,7 @@ public class USSD implements IUSSD {
                             transaction.deposit(loggedAccount);
                             break;
                         case 4:
-                            transaction.Withdraw();
+                            transaction.Withdraw(loggedAccount);
                             break;
                         case 5:
                             loggedAccount = null;
